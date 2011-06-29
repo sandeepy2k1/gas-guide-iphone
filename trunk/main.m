@@ -2,8 +2,8 @@
 //  main.m
 //  Gas Guide iOS App
 //
-//	Original Modification by James Lamberg 21Nov09
-//	Updated by James Lamberg 19Dec09 v1.0
+//  Original Modification by James Lamberg 21Nov09
+//  Updated by James Lamberg 19Dec09 v1.0
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
 #import <UIKit/UIKit.h>
