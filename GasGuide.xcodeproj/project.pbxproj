@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8424714E161B8D810047616D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84247144161B8D810047616D /* Default-568h@2x.png */; };
+		8424714F161B8D810047616D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84247145161B8D810047616D /* Default.png */; };
+		84247150161B8D810047616D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84247146161B8D810047616D /* Default@2x.png */; };
+		84247151161B8D810047616D /* icon1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 84247147161B8D810047616D /* icon1024.png */; };
+		84247152161B8D810047616D /* icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 84247148161B8D810047616D /* icon114.png */; };
+		84247153161B8D810047616D /* icon144.png in Resources */ = {isa = PBXBuildFile; fileRef = 84247149161B8D810047616D /* icon144.png */; };
+		84247154161B8D810047616D /* icon512.png in Resources */ = {isa = PBXBuildFile; fileRef = 8424714A161B8D810047616D /* icon512.png */; };
+		84247155161B8D810047616D /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 8424714B161B8D810047616D /* icon57.png */; };
+		84247156161B8D810047616D /* icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 8424714C161B8D810047616D /* icon72.png */; };
+		84247157161B8D810047616D /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 8424714D161B8D810047616D /* iTunesArtwork */; };
+		84247162161B8F080047616D /* DisclosureButtonController13.m in Sources */ = {isa = PBXBuildFile; fileRef = 84247161161B8F080047616D /* DisclosureButtonController13.m */; };
+		E7F649A3161AAD9D0057C6AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F649A2161AAD9D0057C6AC /* UIKit.framework */; };
+		E7F649A5161AAD9D0057C6AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F649A4161AAD9D0057C6AC /* Foundation.framework */; };
+		E7F649A7161AAD9D0057C6AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F649A6161AAD9D0057C6AC /* CoreGraphics.framework */; };
+		E7F649AD161AAD9D0057C6AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7F649AB161AAD9D0057C6AC /* InfoPlist.strings */; };
+		E7F649AF161AAD9D0057C6AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F649AE161AAD9D0057C6AC /* main.m */; };
+		E7F649B3161AAD9D0057C6AC /* Gas_GuideAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F649B2161AAD9D0057C6AC /* Gas_GuideAppDelegate.m */; };
+		E7F649BC161AAD9D0057C6AC /* Gas_GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F649BB161AAD9D0057C6AC /* Gas_GuideViewController.m */; };
+		E7F649BF161AAD9D0057C6AC /* Gas_GuideViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7F649BD161AAD9D0057C6AC /* Gas_GuideViewController_iPhone.xib */; };
+		E7F649C2161AAD9D0057C6AC /* Gas_GuideViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7F649C0161AAD9D0057C6AC /* Gas_GuideViewController_iPad.xib */; };
+		E7F649E4161AADFE0057C6AC /* DisclosureButtonController01.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F649C9161AADFE0057C6AC /* DisclosureButtonController01.m */; };
+		E7F649E5161AADFE0057C6AC /* DisclosureButtonController02.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F649CB161AADFE0057C6AC /* DisclosureButtonController02.m */; };
+		E7F649E6161AADFE0057C6AC /* DisclosureButtonController03.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F649CD161AADFE0057C6AC /* DisclosureButtonController03.m */; };
+		E7F649E7161AADFE0057C6AC /* DisclosureButtonController04.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F649CF161AADFE0057C6AC /* DisclosureButtonController04.m */; };
+		E7F649E8161AADFE0057C6AC /* DisclosureButtonController05.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F649D1161AADFE0057C6AC /* DisclosureButtonController05.m */; };
+		E7F649E9161AADFE0057C6AC /* DisclosureButtonController06.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F649D3161AADFE0057C6AC /* DisclosureButtonController06.m */; };
+		E7F649EA161AADFE0057C6AC /* DisclosureButtonController07.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F649D5161AADFE0057C6AC /* DisclosureButtonController07.m */; };
+		E7F649EB161AADFE0057C6AC /* DisclosureButtonController08.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F649D7161AADFE0057C6AC /* DisclosureButtonController08.m */; };
+		E7F649EC161AADFE0057C6AC /* DisclosureButtonController09.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F649D9161AADFE0057C6AC /* DisclosureButtonController09.m */; };
+		E7F649ED161AADFE0057C6AC /* DisclosureButtonController10.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F649DB161AADFE0057C6AC /* DisclosureButtonController10.m */; };
+		E7F649EE161AADFE0057C6AC /* DisclosureButtonController11.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F649DD161AADFE0057C6AC /* DisclosureButtonController11.m */; };
+		E7F649EF161AADFE0057C6AC /* DisclosureButtonController12.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F649DF161AADFE0057C6AC /* DisclosureButtonController12.m */; };
+		E7F649F0161AADFE0057C6AC /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F649E1161AADFE0057C6AC /* ImageViewController.m */; };
+		E7F649F1161AADFE0057C6AC /* DisclosureDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F649E3161AADFE0057C6AC /* DisclosureDetailController.m */; };
+		E7F649FE161AAFD80057C6AC /* SecondLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F649FD161AAFD80057C6AC /* SecondLevelViewController.m */; };
+		E7F64A00161AB2E00057C6AC /* DisclosureDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7F649FF161AB2E00057C6AC /* DisclosureDetail.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84247144161B8D810047616D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		84247145161B8D810047616D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		84247146161B8D810047616D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		84247147161B8D810047616D /* icon1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1024.png; sourceTree = "<group>"; };
+		84247148161B8D810047616D /* icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114.png; sourceTree = "<group>"; };
+		84247149161B8D810047616D /* icon144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon144.png; sourceTree = "<group>"; };
+		8424714A161B8D810047616D /* icon512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon512.png; sourceTree = "<group>"; };
+		8424714B161B8D810047616D /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57.png; sourceTree = "<group>"; };
+		8424714C161B8D810047616D /* icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon72.png; sourceTree = "<group>"; };
+		8424714D161B8D810047616D /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		84247160161B8F080047616D /* DisclosureButtonController13.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureButtonController13.h; sourceTree = "<group>"; };
+		84247161161B8F080047616D /* DisclosureButtonController13.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureButtonController13.m; sourceTree = "<group>"; };
+		E7F6499E161AAD9D0057C6AC /* GasGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GasGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F649A2161AAD9D0057C6AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E7F649A4161AAD9D0057C6AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E7F649A6161AAD9D0057C6AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E7F649AA161AAD9D0057C6AC /* GasGuide-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GasGuide-Info.plist"; sourceTree = "<group>"; };
+		E7F649AC161AAD9D0057C6AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E7F649AE161AAD9D0057C6AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7F649B0161AAD9D0057C6AC /* GasGuide-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GasGuide-Prefix.pch"; sourceTree = "<group>"; };
+		E7F649B1161AAD9D0057C6AC /* Gas_GuideAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gas_GuideAppDelegate.h; sourceTree = "<group>"; };
+		E7F649B2161AAD9D0057C6AC /* Gas_GuideAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gas_GuideAppDelegate.m; sourceTree = "<group>"; };
+		E7F649BA161AAD9D0057C6AC /* Gas_GuideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gas_GuideViewController.h; sourceTree = "<group>"; };
+		E7F649BB161AAD9D0057C6AC /* Gas_GuideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gas_GuideViewController.m; sourceTree = "<group>"; };
+		E7F649BE161AAD9D0057C6AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Gas_GuideViewController_iPhone.xib; sourceTree = "<group>"; };
+		E7F649C1161AAD9D0057C6AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Gas_GuideViewController_iPad.xib; sourceTree = "<group>"; };
+		E7F649C8161AADFE0057C6AC /* DisclosureButtonController01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureButtonController01.h; sourceTree = "<group>"; };
+		E7F649C9161AADFE0057C6AC /* DisclosureButtonController01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureButtonController01.m; sourceTree = "<group>"; };
+		E7F649CA161AADFE0057C6AC /* DisclosureButtonController02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureButtonController02.h; sourceTree = "<group>"; };
+		E7F649CB161AADFE0057C6AC /* DisclosureButtonController02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureButtonController02.m; sourceTree = "<group>"; };
+		E7F649CC161AADFE0057C6AC /* DisclosureButtonController03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureButtonController03.h; sourceTree = "<group>"; };
+		E7F649CD161AADFE0057C6AC /* DisclosureButtonController03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureButtonController03.m; sourceTree = "<group>"; };
+		E7F649CE161AADFE0057C6AC /* DisclosureButtonController04.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureButtonController04.h; sourceTree = "<group>"; };
+		E7F649CF161AADFE0057C6AC /* DisclosureButtonController04.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureButtonController04.m; sourceTree = "<group>"; };
+		E7F649D0161AADFE0057C6AC /* DisclosureButtonController05.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureButtonController05.h; sourceTree = "<group>"; };
+		E7F649D1161AADFE0057C6AC /* DisclosureButtonController05.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureButtonController05.m; sourceTree = "<group>"; };
+		E7F649D2161AADFE0057C6AC /* DisclosureButtonController06.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureButtonController06.h; sourceTree = "<group>"; };
+		E7F649D3161AADFE0057C6AC /* DisclosureButtonController06.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureButtonController06.m; sourceTree = "<group>"; };
+		E7F649D4161AADFE0057C6AC /* DisclosureButtonController07.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureButtonController07.h; sourceTree = "<group>"; };
+		E7F649D5161AADFE0057C6AC /* DisclosureButtonController07.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureButtonController07.m; sourceTree = "<group>"; };
+		E7F649D6161AADFE0057C6AC /* DisclosureButtonController08.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureButtonController08.h; sourceTree = "<group>"; };
+		E7F649D7161AADFE0057C6AC /* DisclosureButtonController08.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureButtonController08.m; sourceTree = "<group>"; };
+		E7F649D8161AADFE0057C6AC /* DisclosureButtonController09.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureButtonController09.h; sourceTree = "<group>"; };
+		E7F649D9161AADFE0057C6AC /* DisclosureButtonController09.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureButtonController09.m; sourceTree = "<group>"; };
+		E7F649DA161AADFE0057C6AC /* DisclosureButtonController10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureButtonController10.h; sourceTree = "<group>"; };
+		E7F649DB161AADFE0057C6AC /* DisclosureButtonController10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureButtonController10.m; sourceTree = "<group>"; };
+		E7F649DC161AADFE0057C6AC /* DisclosureButtonController11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureButtonController11.h; sourceTree = "<group>"; };
+		E7F649DD161AADFE0057C6AC /* DisclosureButtonController11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureButtonController11.m; sourceTree = "<group>"; };
+		E7F649DE161AADFE0057C6AC /* DisclosureButtonController12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureButtonController12.h; sourceTree = "<group>"; };
+		E7F649DF161AADFE0057C6AC /* DisclosureButtonController12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureButtonController12.m; sourceTree = "<group>"; };
+		E7F649E0161AADFE0057C6AC /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		E7F649E1161AADFE0057C6AC /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		E7F649E2161AADFE0057C6AC /* DisclosureDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureDetailController.h; sourceTree = "<group>"; };
+		E7F649E3161AADFE0057C6AC /* DisclosureDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureDetailController.m; sourceTree = "<group>"; };
+		E7F649FC161AAFD80057C6AC /* SecondLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondLevelViewController.h; sourceTree = "<group>"; };
+		E7F649FD161AAFD80057C6AC /* SecondLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondLevelViewController.m; sourceTree = "<group>"; };
+		E7F649FF161AB2E00057C6AC /* DisclosureDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisclosureDetail.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7F6499B161AAD9D0057C6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F649A3161AAD9D0057C6AC /* UIKit.framework in Frameworks */,
+				E7F649A5161AAD9D0057C6AC /* Foundation.framework in Frameworks */,
+				E7F649A7161AAD9D0057C6AC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84247143161B8D810047616D /* App_Images */ = {
+			isa = PBXGroup;
+			children = (
+				84247144161B8D810047616D /* Default-568h@2x.png */,
+				84247145161B8D810047616D /* Default.png */,
+				84247146161B8D810047616D /* Default@2x.png */,
+				84247147161B8D810047616D /* icon1024.png */,
+				84247148161B8D810047616D /* icon114.png */,
+				84247149161B8D810047616D /* icon144.png */,
+				8424714A161B8D810047616D /* icon512.png */,
+				8424714B161B8D810047616D /* icon57.png */,
+				8424714C161B8D810047616D /* icon72.png */,
+				8424714D161B8D810047616D /* iTunesArtwork */,
+			);
+			path = App_Images;
+			sourceTree = "<group>";
+		};
+		E7F64993161AAD9D0057C6AC = {
+			isa = PBXGroup;
+			children = (
+				84247143161B8D810047616D /* App_Images */,
+				E7F649A8161AAD9D0057C6AC /* App_Files */,
+				E7F649A1161AAD9D0057C6AC /* Frameworks */,
+				E7F6499F161AAD9D0057C6AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7F6499F161AAD9D0057C6AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7F6499E161AAD9D0057C6AC /* GasGuide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7F649A1161AAD9D0057C6AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7F649A2161AAD9D0057C6AC /* UIKit.framework */,
+				E7F649A4161AAD9D0057C6AC /* Foundation.framework */,
+				E7F649A6161AAD9D0057C6AC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7F649A8161AAD9D0057C6AC /* App_Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7F649C8161AADFE0057C6AC /* DisclosureButtonController01.h */,
+				E7F649C9161AADFE0057C6AC /* DisclosureButtonController01.m */,
+				E7F649CA161AADFE0057C6AC /* DisclosureButtonController02.h */,
+				E7F649CB161AADFE0057C6AC /* DisclosureButtonController02.m */,
+				E7F649CC161AADFE0057C6AC /* DisclosureButtonController03.h */,
+				E7F649CD161AADFE0057C6AC /* DisclosureButtonController03.m */,
+				E7F649CE161AADFE0057C6AC /* DisclosureButtonController04.h */,
+				E7F649CF161AADFE0057C6AC /* DisclosureButtonController04.m */,
+				E7F649D0161AADFE0057C6AC /* DisclosureButtonController05.h */,
+				E7F649D1161AADFE0057C6AC /* DisclosureButtonController05.m */,
+				E7F649D2161AADFE0057C6AC /* DisclosureButtonController06.h */,
+				E7F649D3161AADFE0057C6AC /* DisclosureButtonController06.m */,
+				E7F649D4161AADFE0057C6AC /* DisclosureButtonController07.h */,
+				E7F649D5161AADFE0057C6AC /* DisclosureButtonController07.m */,
+				E7F649D6161AADFE0057C6AC /* DisclosureButtonController08.h */,
+				E7F649D7161AADFE0057C6AC /* DisclosureButtonController08.m */,
+				E7F649D8161AADFE0057C6AC /* DisclosureButtonController09.h */,
+				E7F649D9161AADFE0057C6AC /* DisclosureButtonController09.m */,
+				E7F649DA161AADFE0057C6AC /* DisclosureButtonController10.h */,
+				E7F649DB161AADFE0057C6AC /* DisclosureButtonController10.m */,
+				E7F649DC161AADFE0057C6AC /* DisclosureButtonController11.h */,
+				E7F649DD161AADFE0057C6AC /* DisclosureButtonController11.m */,
+				E7F649DE161AADFE0057C6AC /* DisclosureButtonController12.h */,
+				E7F649DF161AADFE0057C6AC /* DisclosureButtonController12.m */,
+				84247160161B8F080047616D /* DisclosureButtonController13.h */,
+				84247161161B8F080047616D /* DisclosureButtonController13.m */,
+				E7F649E0161AADFE0057C6AC /* ImageViewController.h */,
+				E7F649E1161AADFE0057C6AC /* ImageViewController.m */,
+				E7F649E2161AADFE0057C6AC /* DisclosureDetailController.h */,
+				E7F649E3161AADFE0057C6AC /* DisclosureDetailController.m */,
+				E7F649FF161AB2E00057C6AC /* DisclosureDetail.xib */,
+				E7F649B1161AAD9D0057C6AC /* Gas_GuideAppDelegate.h */,
+				E7F649B2161AAD9D0057C6AC /* Gas_GuideAppDelegate.m */,
+				E7F649BA161AAD9D0057C6AC /* Gas_GuideViewController.h */,
+				E7F649BB161AAD9D0057C6AC /* Gas_GuideViewController.m */,
+				E7F649BD161AAD9D0057C6AC /* Gas_GuideViewController_iPhone.xib */,
+				E7F649C0161AAD9D0057C6AC /* Gas_GuideViewController_iPad.xib */,
+				E7F649FC161AAFD80057C6AC /* SecondLevelViewController.h */,
+				E7F649FD161AAFD80057C6AC /* SecondLevelViewController.m */,
+				E7F649A9161AAD9D0057C6AC /* Supporting Files */,
+			);
+			path = App_Files;
+			sourceTree = SOURCE_ROOT;
+		};
+		E7F649A9161AAD9D0057C6AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7F649AA161AAD9D0057C6AC /* GasGuide-Info.plist */,
+				E7F649AB161AAD9D0057C6AC /* InfoPlist.strings */,
+				E7F649AE161AAD9D0057C6AC /* main.m */,
+				E7F649B0161AAD9D0057C6AC /* GasGuide-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7F6499D161AAD9D0057C6AC /* GasGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7F649C5161AAD9D0057C6AC /* Build configuration list for PBXNativeTarget "GasGuide" */;
+			buildPhases = (
+				E7F6499A161AAD9D0057C6AC /* Sources */,
+				E7F6499B161AAD9D0057C6AC /* Frameworks */,
+				E7F6499C161AAD9D0057C6AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GasGuide;
+			productName = "Gas Guide";
+			productReference = E7F6499E161AAD9D0057C6AC /* GasGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7F64995161AAD9D0057C6AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "Gas Guide";
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Gas Guide";
+			};
+			buildConfigurationList = E7F64998161AAD9D0057C6AC /* Build configuration list for PBXProject "GasGuide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E7F64993161AAD9D0057C6AC;
+			productRefGroup = E7F6499F161AAD9D0057C6AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7F6499D161AAD9D0057C6AC /* GasGuide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7F6499C161AAD9D0057C6AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F649AD161AAD9D0057C6AC /* InfoPlist.strings in Resources */,
+				E7F649BF161AAD9D0057C6AC /* Gas_GuideViewController_iPhone.xib in Resources */,
+				E7F649C2161AAD9D0057C6AC /* Gas_GuideViewController_iPad.xib in Resources */,
+				E7F64A00161AB2E00057C6AC /* DisclosureDetail.xib in Resources */,
+				8424714E161B8D810047616D /* Default-568h@2x.png in Resources */,
+				8424714F161B8D810047616D /* Default.png in Resources */,
+				84247150161B8D810047616D /* Default@2x.png in Resources */,
+				84247151161B8D810047616D /* icon1024.png in Resources */,
+				84247152161B8D810047616D /* icon114.png in Resources */,
+				84247153161B8D810047616D /* icon144.png in Resources */,
+				84247154161B8D810047616D /* icon512.png in Resources */,
+				84247155161B8D810047616D /* icon57.png in Resources */,
+				84247156161B8D810047616D /* icon72.png in Resources */,
+				84247157161B8D810047616D /* iTunesArtwork in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7F6499A161AAD9D0057C6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F649AF161AAD9D0057C6AC /* main.m in Sources */,
+				E7F649B3161AAD9D0057C6AC /* Gas_GuideAppDelegate.m in Sources */,
+				E7F649BC161AAD9D0057C6AC /* Gas_GuideViewController.m in Sources */,
+				E7F649E4161AADFE0057C6AC /* DisclosureButtonController01.m in Sources */,
+				E7F649E5161AADFE0057C6AC /* DisclosureButtonController02.m in Sources */,
+				E7F649E6161AADFE0057C6AC /* DisclosureButtonController03.m in Sources */,
+				E7F649E7161AADFE0057C6AC /* DisclosureButtonController04.m in Sources */,
+				E7F649E8161AADFE0057C6AC /* DisclosureButtonController05.m in Sources */,
+				E7F649E9161AADFE0057C6AC /* DisclosureButtonController06.m in Sources */,
+				E7F649EA161AADFE0057C6AC /* DisclosureButtonController07.m in Sources */,
+				E7F649EB161AADFE0057C6AC /* DisclosureButtonController08.m in Sources */,
+				E7F649EC161AADFE0057C6AC /* DisclosureButtonController09.m in Sources */,
+				E7F649ED161AADFE0057C6AC /* DisclosureButtonController10.m in Sources */,
+				E7F649EE161AADFE0057C6AC /* DisclosureButtonController11.m in Sources */,
+				E7F649EF161AADFE0057C6AC /* DisclosureButtonController12.m in Sources */,
+				E7F649F0161AADFE0057C6AC /* ImageViewController.m in Sources */,
+				E7F649F1161AADFE0057C6AC /* DisclosureDetailController.m in Sources */,
+				E7F649FE161AAFD80057C6AC /* SecondLevelViewController.m in Sources */,
+				84247162161B8F080047616D /* DisclosureButtonController13.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7F649AB161AAD9D0057C6AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7F649AC161AAD9D0057C6AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E7F649BD161AAD9D0057C6AC /* Gas_GuideViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7F649BE161AAD9D0057C6AC /* en */,
+			);
+			name = Gas_GuideViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		E7F649C0161AAD9D0057C6AC /* Gas_GuideViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7F649C1161AAD9D0057C6AC /* en */,
+			);
+			name = Gas_GuideViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7F649C3161AAD9D0057C6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7F649C4161AAD9D0057C6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7F649C6161AAD9D0057C6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: James Lamberg (R9SUW7GRS8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: James Lamberg (R9SUW7GRS8)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "App_Files/GasGuide-Prefix.pch";
+				INFOPLIST_FILE = "App_Files/GasGuide-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = GasGuide;
+				PROVISIONING_PROFILE = "29680CA0-2C9C-4983-BBFA-6F1F5E505C47";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2EC81956-03F0-4FE2-8BFB-952A7E4A254F";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E7F649C7161AAD9D0057C6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: James Lamberg";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "App_Files/GasGuide-Prefix.pch";
+				INFOPLIST_FILE = "App_Files/GasGuide-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = GasGuide;
+				PROVISIONING_PROFILE = "19B296D6-6940-4B21-BE97-6140A06120DD";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7F64998161AAD9D0057C6AC /* Build configuration list for PBXProject "GasGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F649C3161AAD9D0057C6AC /* Debug */,
+				E7F649C4161AAD9D0057C6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7F649C5161AAD9D0057C6AC /* Build configuration list for PBXNativeTarget "GasGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F649C6161AAD9D0057C6AC /* Debug */,
+				E7F649C7161AAD9D0057C6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7F64995161AAD9D0057C6AC /* Project object */;
+}
